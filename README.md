@@ -1,4 +1,0 @@
-AvD
-===
-
-Angels vs Daemons
