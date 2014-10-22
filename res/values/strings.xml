@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello_world">Hello world!</string>
-    
-    <string name="app_name">WhackAMole</string>
+    <string name="app_name">AngelsVsDemons</string>
     <string name="action_settings">Settings</string>
     <string name="button_play">Play</string>
     <string name="button_settings">Settings</string>
@@ -11,13 +8,11 @@
     <string name="button_help">Help</string>
     <string name="button_link">Fb</string>
     <string name="link_url">https://www.google.ro/?gws_rd=ssl</string>
-    
-   
     <string name="title_activity_game">Game</string>
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_ranks">Ranks</string>
     <string name="title_activity_help">Help</string>
-    
- 
+    <string name="title_activity_loader">Loader</string>
+    <string name="Logo">Couch Vegetables Productions</string>
 
 </resources>

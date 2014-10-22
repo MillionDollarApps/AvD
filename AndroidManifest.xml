@@ -13,16 +13,26 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MenuActivity"
-            android:label="@string/app_name" 
-            android:theme="@style/NoActionBar"  >
+          <activity
+            android:name=".LoaderActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+ 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBar" >
+			<meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dnb.whackamole.LoaderActivity" />
+        </activity>
+        
         <activity
             android:name=".GameActivity"
             android:label="@string/title_activity_game"
@@ -47,7 +57,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.dnb.whackamole.MenuActivity" />
         </activity>
-        <activity 
+        <activity
             android:name=".HelpActivity"
             android:label="@string/title_activity_help"
             android:theme="@style/NoActionBar" >
@@ -55,6 +65,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.dnb.whackamole.MenuActivity" />
         </activity>
+
     </application>
 
 </manifest>
